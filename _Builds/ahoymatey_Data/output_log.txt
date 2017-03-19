@@ -16,22 +16,14 @@ Platform assembly: S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_
 Loading S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.092 seconds
+- Completed reload, in  0.160 seconds
 Platform assembly: S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.563097 ms
+UnloadTime: 0.530395 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 6b0 -> priority: 1 
-  Thread -> id: 2fc4 -> priority: 1 
-[0.1680117] Client start requested
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
-[0.2016747] Client is now connected to IP Address: 192.168.1.8
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
-
+  Thread -> id: 226c -> priority: 1 
+  Thread -> id: 1494 -> priority: 1 
