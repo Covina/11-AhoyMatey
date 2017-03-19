@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.Networking;
 
-public class Player : MonoBehaviour {
+public class Player : NetworkBehaviour {
 
 	private Vector3 inputValue;
 
@@ -12,13 +13,22 @@ public class Player : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
+		// doublecheck that we only move the player object when it's the local player
+		// DO NO NOT MOVE ALL PLAYERS!
+		if (isLocalPlayer == false) {
+			return;
+		}
 
-		inputValue.x = CrossPlatformInputManager.GetAxis("Horizontal");
+
+		// set the V3 so we can move things around.
+		inputValue.x = CrossPlatformInputManager.GetAxis ("Horizontal");
 		inputValue.y = 0f;
-		inputValue.z = CrossPlatformInputManager.GetAxis("Vertical");
+		inputValue.z = CrossPlatformInputManager.GetAxis ("Vertical");
 
-		transform.Translate(inputValue);
+		transform.Translate (inputValue);
+
 
 
 	}

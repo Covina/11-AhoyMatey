@@ -8,28 +8,30 @@ Direct3D:
 Begin MonoManager ReloadAssembly
 Platform assembly: S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
 Platform assembly: S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.032 seconds
+- Completed reload, in  0.092 seconds
 Platform assembly: S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: S:\Projects\Github Repository\11-AhoyMatey\_Builds\ahoymatey_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3840x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.514810 ms
+UnloadTime: 0.563097 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3e64 -> priority: 1 
-  Thread -> id: 3a98 -> priority: 1 
-[1.26651] Client start requested
+  Thread -> id: 6b0 -> priority: 1 
+  Thread -> id: 2fc4 -> priority: 1 
+[0.1680117] Client start requested
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-[1.300189] Client is now connected to IP Address: 192.168.1.8
+[0.2016747] Client is now connected to IP Address: 192.168.1.8
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
